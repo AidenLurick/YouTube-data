@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import youtube1 from './assets/youtube1.png'; // 图片路径
+import youtube2 from './assets/youtube1.png'; // 图片路径
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, ComposedChart, Area, AreaChart } from 'recharts';
 import { TrendingUp, TrendingDown, Eye, MousePointer, Video, Calendar } from 'lucide-react';
 
@@ -372,6 +374,18 @@ const YouTubeAnalysisReport = () => {
           </p>
         </div>
       </div>
+            {/* 展示图片 */}
+            <div className="bg-white rounded-lg shadow-md  p-12">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">数据截图</h2>
+              <div className="flex justify-between items-center">
+                <div className="w-1/2 p-4">
+                  <img src={youtube1} alt="youtube1" className="w-full h-auto rounded-lg shadow-md" />
+                </div>
+                <div className="w-1/2 p-4">
+                  <img src={youtube2} alt="youtube2" className="w-full h-auto rounded-lg shadow-md" />
+                </div>
+              </div>
+            </div>
     </div>
   );
 };
