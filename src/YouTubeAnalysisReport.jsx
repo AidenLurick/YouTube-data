@@ -369,9 +369,6 @@ const YouTubeAnalysisReport = () => {
             <li>单视频平均观看次数最高达到25,775次</li>
             <li>展示转观看效率大幅提升</li>
           </ul>
-          <p>
-            <strong>了解更多：</strong>对于数据或其他方面需要我提供的，可以添加我的联系方式，微信：qcg201 ， 邮箱：aidenlurick@gmail.com
-          </p>
         </div>
       </div>
             {/* 展示图片 */}
